@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* background: linear-gradient(to top, #3be25c, #58e3d5, #dffaf1, #d875ff, #f7c738) */
+  /* green to blue */
+  /* background: linear-gradient(to top, #00a5cf,#7ae582,  #9fffcb, #66babc, #66babc); */
+  /* pink to green */
+  /* background: linear-gradient(to top, #71CB90, #B5E8A4, #FFC8C4, #FFB0C4, #FF97C4);   */
+  /* green to green */
+  /* background: linear-gradient(to top, #43AC78, #64C695, #66D6A2, #93E9BE, #66babc); */
+ 
+}
+
+/* Navigation Bar */
+.navbar-titles{
+    font-weight: 500; 
+    font-size: 18px; 
+    color: #325343;
+}
+
+.profile-icon{
+  padding-left: 23%;
+}
+
+
+/* page */
+/* landing image */
+.images{
+  height: 100vh;
+  /* background-image: url("https://media.licdn.com/dms/image/C5612AQH7k9yuvMDJ0g/article-cover_image-shrink_720_1280/0/1632916378382?e=1710979200&v=beta&t=v6zvFsukr8CPwdspfwr8iBYhZXOjTbmWdCgXdcqjqJo"); */
+  background-image: url("http://localhost:5500/images/homepageimg1.jpeg");
+  background-size:cover ;
+  background-position: center;
+  color: #397a4a; 
+}
+
+.imageTextContainer {
+  color:black;
+  text-align: center;
+  /* margin-top: 15%; */
+  /* justify-content: end; */
+}
+
+/* Quote */
+#greetingWish{
+  /* margin-top: 10%; */
+  font-weight: 400;
+}
+
+/* test card */
+.custom-testcards{
+  background-color: #006a6e;
+  color: #f5f7f5;
+  font-family: Inter,sans-serif;
+}
+/* Q&A 1 */
+/*fffcf6; 4a4d4a , 252625,; f5f7f5, a6de9b, 325343*/
+.custom-q1{
+  background-color: #fffcf6;
+  font-family: Inter,sans-serif;
+  color: #252625;
+  font-size: 18px;
+}
+.q1-headings{
+  color: #4a4d4a;
+}
+
+.custom-down-arrow{
+  padding-top: 20%;
+}
+
+/* Q&A 2 */
+.custom-q2{
+  background-color: #006a6e;
+  color: #f5f7f5;
+  font-family: Inter,sans-serif;
+  font-size: 18px;
+}
+
+.q2-headings{
+  color: #a6de9b;
+}
+
+
+
+#viewMore{
+  cursor: pointer;
+}
+
+
+.custom-bi{
+  /* margin: 10px; */
+  color: black;
+}
+
+.custom-footer{
+  background-color: #f5f7f5;
+}

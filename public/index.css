@@ -1,0 +1,32 @@
+body {  
+    overflow-x: hidden;
+}
+
+.landingImage {
+    height: 100vh;
+    background-image: url("https://images.wallpaperscraft.com/image/single/tree_horizon_sunset_128367_3840x2400.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    text-align: center;
+    padding-top: 15%;
+}
+
+
+.custom-bi{
+    margin: 10px;
+    color: white;
+}
+
+.custom-displayHeading{
+    font-weight: 500;
+    /* color: rgb(103, 29, 16); */
+    color: rgb(50, 7, 13);
+    margin-bottom: 30px;
+}
+
+.custom-lead{
+    font-weight: 400;
+    color: black;
+}

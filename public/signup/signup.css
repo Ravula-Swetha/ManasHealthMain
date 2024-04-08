@@ -1,0 +1,40 @@
+body {
+  background-color: #c5e2d3;
+  /* background-color: #f8f9fa; */
+}
+
+.signup-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-form {
+  background-color: #d3e7d2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  max-width: 400px;
+  margin: 10px;
+}
+
+.signup-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+  margin-right: 100px;
+}
+
+.error{
+  color: red;
+}
+
+#login{
+  cursor: pointer;
+}
