@@ -1,3 +1,1 @@
-# Manashealth
-A mental health website guiding students, connecting them with teachers.
-A Student can test and analyze their mental health condition and the teachers can keep a look on the students condition...
+A MERN website to assess users’ mental health. The site offers different mental health tests like depression, anxiety, PTSD, and more. Users can log in, take these tests by answering a few questions, and see their results displayed in graphs. They can also view their past test results, access helpful articles and resources, find remedies to improve their mental health, and get helpline numbers for therapists.

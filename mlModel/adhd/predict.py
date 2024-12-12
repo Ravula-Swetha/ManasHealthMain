@@ -3,11 +3,12 @@ import joblib
 
 def predict_severity(user_inputs):
     # Load the trained model from the joblib file
+
     model = joblib.load('C://Users//SAINATH//Documents//Manas-Health//mlModel//adhd//adhd_final_model.joblib')
 
     # Load the LabelEncoder used during training
     le = joblib.load('C://Users//SAINATH//Documents//Manas-Health//mlModel//adhd//label_encoder.joblib')
-
+    
     # Example: Create a DataFrame with the input values using a for loop
     user_inputs_dict = {}
     for i in range(1, 7):

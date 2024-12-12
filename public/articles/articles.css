@@ -164,8 +164,7 @@ p{
     /* Add styling for your content sections */
     padding: 20px;
     border: 1px solid #ddd;
-    background-color: #fdfbf8;
-    
+    background-color: #fdfbf8; 
 }
 h5{
     text-align: left;

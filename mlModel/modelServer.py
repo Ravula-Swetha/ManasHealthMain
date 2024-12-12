@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-import anxiety.predict as anxietyprediction# Import your machine learning model here
+import anxiety.predict as anxietyprediction # Import your machine learning model here
 import depression.predict as depressionprediction
 import adhd.predict as adhdprediction
 import autism.predict as autismprediction

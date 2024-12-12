@@ -2,6 +2,7 @@ import pandas as pd
 import joblib
 
 def predict_severity(user_inputs):
+    
     # Load the trained model from the joblib file
     model = joblib.load('C://Users//SAINATH//Documents//Manas-Health//mlModel//autism//autism_final_model.joblib')
 

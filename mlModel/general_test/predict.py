@@ -2,12 +2,12 @@ import pandas as pd
 import joblib
 
 def predict_severity(user_inputs):
+    
     # Load the trained model from the joblib file
     model = joblib.load('C://Users//SAINATH//Documents//Manas-Health//mlModel//general_test//general_final_model.joblib')
 
     # Load the LabelEncoder used during training
     le = joblib.load('C://Users//SAINATH//Documents//Manas-Health//mlModel//general_test//label_encoder.joblib')
-
 
     user_inputs_dict = {}
     user_inputs_dict['age'] = user_inputs[0]

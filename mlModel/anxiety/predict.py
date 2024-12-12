@@ -6,7 +6,7 @@ def predict_severity(user_inputs):
     model = joblib.load('C://Users//SAINATH//Documents//Manas-Health//mlModel//anxiety//anxiety_final_model.joblib')
 
     # Load the LabelEncoder used during training
-    le = joblib.load('C://Users//SAINATH//Documents//Manas-Health//mlModel//anxeity//label_encoder.joblib')
+    le = joblib.load('C://Users//SAINATH//Documents//Manas-Health//mlModel//anxiety//label_encoder.joblib')
 
     # Example: Create a DataFrame with the input values using a for loop
     user_inputs_dict = {}
